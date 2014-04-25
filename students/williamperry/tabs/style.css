@@ -1,5 +1,5 @@
 .tabs {
-    width:100%;
+    width:50%;
     display:inline-block;
 }
 /*----- Tab Links -----*/
@@ -11,15 +11,16 @@
     content:'';
 }
 .tab-links li {
-    margin:0px 5px;
+    margin:0px 1px;
     float:left;
     list-style:none;
 }
 .tab-links a {
     padding:9px 15px;
     display:inline-block;
-    border-radius:3px 3px 0px 0px;
+    border-radius:3px 16px 0px 0px;
     background:#7FB5DA;
+    box-shadow:-1px 1px 1px rgba(0, 0, 0, 0.15);
     font-size:16px;
     font-weight:600;
     color:#4c4c4c;
@@ -36,7 +37,7 @@ li.active a, li.active a:hover {
 /*----- Content of Tabs -----*/
  .tab-content {
     padding:15px;
-    border-radius:5px;
+    border-radius:15px;
     box-shadow:-1px 1px 1px rgba(0, 0, 0, 0.15);
     background:#fff;
 }
